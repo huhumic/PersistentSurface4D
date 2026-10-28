@@ -1,0 +1,12 @@
+[project]
+name = "persistent-surface4d"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pillow", "pyyaml"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

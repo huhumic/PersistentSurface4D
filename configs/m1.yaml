@@ -1,0 +1,10 @@
+name: base_g_m1
+inherits: base_g.yaml
+modules:
+  m1_memory: true
+  m2_propagation: false
+  m3_reappearance: false
+m1:
+  visibility_tau_m: 0.003
+  history_dim: 6
+  confidence_dtype: float16

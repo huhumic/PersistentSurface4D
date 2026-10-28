@@ -1,0 +1,11 @@
+name: base_g_m1_m2
+inherits: m1.yaml
+modules:
+  m1_memory: true
+  m2_propagation: true
+  m3_reappearance: false
+m2:
+  knn_k: 12
+  learned_weights: false
+  distance_sigma_m: 0.01
+  correction_gate_max: 1.0

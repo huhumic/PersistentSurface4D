@@ -1,0 +1,31 @@
+# datasets / experiment products
+data/
+outputs/
+checkpoints/
+logs/
+*.ply
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# third-party source is cloned locally, not vendored
+third_party/Deform3DGS/
+third_party/SurgicalGS/
+third_party/EndoPlanar/
+third_party/ColonSplat/
+third_party/physiosplat/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
