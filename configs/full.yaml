@@ -1,0 +1,11 @@
+name: persistent_surface4d_full
+inherits: m12.yaml
+modules:
+  m1_memory: true
+  m2_propagation: true
+  m3_reappearance: true
+m3:
+  refresh_interval: 500
+  min_unobserved_age_frames: 2
+  loss: huber
+  age_weight_gamma: 0.05

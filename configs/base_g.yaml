@@ -1,0 +1,16 @@
+name: base_g
+seed: 12345
+backbone: deform3dgs
+geometry:
+  metric_depth: true
+  depth_loss: huber
+  depth_delta_m: 0.003
+  normal_consistency: true
+  smoothness: true
+modules:
+  m1_memory: false
+  m2_propagation: false
+  m3_reappearance: false
+training:
+  iterations: 3000
+  test_every: 8
